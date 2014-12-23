@@ -1,0 +1,3 @@
+Uses applescript to access Aperture then objc to build an outline view to display them.
+
+Use with caution, it makes some assumptions about the folder structure used to store projects inside Aperture. If you use a Year:Month:Project type structure all should be ok.
