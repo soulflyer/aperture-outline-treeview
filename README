@@ -1,3 +1,5 @@
 Uses applescript to access Aperture then objc to build an outline view to display them.
 
-Use with caution, it makes some assumptions about the folder structure used to store projects inside Aperture. If you use a Year:Month:Project type structure all should be ok.
+Makes some assumptions about the folder structure used to store projects inside Aperture. If you use a Year:Month:Project type structure all should be ok.
+
+Thanks to Suneth's helpful blog entry http://sunethwrites.blogspot.com/2012/08/implementation-of-tree-structure-in-osx.html
