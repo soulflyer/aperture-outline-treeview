@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5961161A491DDD00CB9DD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5961151A491DDD00CB9DD2 /* AppDelegate.m */; };
+		AE5961181A491DDD00CB9DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5961171A491DDD00CB9DD2 /* main.m */; };
+		AE59611A1A491DDD00CB9DD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5961191A491DDD00CB9DD2 /* Images.xcassets */; };
+		AE59611D1A491DDD00CB9DD2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE59611B1A491DDD00CB9DD2 /* MainMenu.xib */; };
+		AE5961291A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5961281A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5961231A491DDD00CB9DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5961071A491DDD00CB9DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE59610E1A491DDD00CB9DD2;
+			remoteInfo = "Aperture-Outline-Treeview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE59610F1A491DDD00CB9DD2 /* Aperture-Outline-Treeview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aperture-Outline-Treeview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5961131A491DDD00CB9DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5961141A491DDD00CB9DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE5961151A491DDD00CB9DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE5961171A491DDD00CB9DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE5961191A491DDD00CB9DD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE59611C1A491DDD00CB9DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE5961221A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aperture-Outline-TreeviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5961271A491DDD00CB9DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5961281A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aperture_Outline_TreeviewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE59610C1A491DDD00CB9DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE59611F1A491DDD00CB9DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5961061A491DDD00CB9DD2 = {
+			isa = PBXGroup;
+			children = (
+				AE5961111A491DDD00CB9DD2 /* Aperture-Outline-Treeview */,
+				AE5961251A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests */,
+				AE5961101A491DDD00CB9DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5961101A491DDD00CB9DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE59610F1A491DDD00CB9DD2 /* Aperture-Outline-Treeview.app */,
+				AE5961221A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5961111A491DDD00CB9DD2 /* Aperture-Outline-Treeview */ = {
+			isa = PBXGroup;
+			children = (
+				AE5961141A491DDD00CB9DD2 /* AppDelegate.h */,
+				AE5961151A491DDD00CB9DD2 /* AppDelegate.m */,
+				AE5961191A491DDD00CB9DD2 /* Images.xcassets */,
+				AE59611B1A491DDD00CB9DD2 /* MainMenu.xib */,
+				AE5961121A491DDD00CB9DD2 /* Supporting Files */,
+			);
+			path = "Aperture-Outline-Treeview";
+			sourceTree = "<group>";
+		};
+		AE5961121A491DDD00CB9DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5961131A491DDD00CB9DD2 /* Info.plist */,
+				AE5961171A491DDD00CB9DD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE5961251A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5961281A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m */,
+				AE5961261A491DDD00CB9DD2 /* Supporting Files */,
+			);
+			path = "Aperture-Outline-TreeviewTests";
+			sourceTree = "<group>";
+		};
+		AE5961261A491DDD00CB9DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5961271A491DDD00CB9DD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE59610E1A491DDD00CB9DD2 /* Aperture-Outline-Treeview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE59612C1A491DDD00CB9DD2 /* Build configuration list for PBXNativeTarget "Aperture-Outline-Treeview" */;
+			buildPhases = (
+				AE59610B1A491DDD00CB9DD2 /* Sources */,
+				AE59610C1A491DDD00CB9DD2 /* Frameworks */,
+				AE59610D1A491DDD00CB9DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aperture-Outline-Treeview";
+			productName = "Aperture-Outline-Treeview";
+			productReference = AE59610F1A491DDD00CB9DD2 /* Aperture-Outline-Treeview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5961211A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE59612F1A491DDD00CB9DD2 /* Build configuration list for PBXNativeTarget "Aperture-Outline-TreeviewTests" */;
+			buildPhases = (
+				AE59611E1A491DDD00CB9DD2 /* Sources */,
+				AE59611F1A491DDD00CB9DD2 /* Frameworks */,
+				AE5961201A491DDD00CB9DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5961241A491DDD00CB9DD2 /* PBXTargetDependency */,
+			);
+			name = "Aperture-Outline-TreeviewTests";
+			productName = "Aperture-Outline-TreeviewTests";
+			productReference = AE5961221A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5961071A491DDD00CB9DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = soulflyer;
+				TargetAttributes = {
+					AE59610E1A491DDD00CB9DD2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AE5961211A491DDD00CB9DD2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AE59610E1A491DDD00CB9DD2;
+					};
+				};
+			};
+			buildConfigurationList = AE59610A1A491DDD00CB9DD2 /* Build configuration list for PBXProject "Aperture-Outline-Treeview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5961061A491DDD00CB9DD2;
+			productRefGroup = AE5961101A491DDD00CB9DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE59610E1A491DDD00CB9DD2 /* Aperture-Outline-Treeview */,
+				AE5961211A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE59610D1A491DDD00CB9DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE59611A1A491DDD00CB9DD2 /* Images.xcassets in Resources */,
+				AE59611D1A491DDD00CB9DD2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5961201A491DDD00CB9DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE59610B1A491DDD00CB9DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5961181A491DDD00CB9DD2 /* main.m in Sources */,
+				AE5961161A491DDD00CB9DD2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE59611E1A491DDD00CB9DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5961291A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5961241A491DDD00CB9DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE59610E1A491DDD00CB9DD2 /* Aperture-Outline-Treeview */;
+			targetProxy = AE5961231A491DDD00CB9DD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE59611B1A491DDD00CB9DD2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE59611C1A491DDD00CB9DD2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE59612A1A491DDD00CB9DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE59612B1A491DDD00CB9DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE59612D1A491DDD00CB9DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Aperture-Outline-Treeview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE59612E1A491DDD00CB9DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Aperture-Outline-Treeview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE5961301A491DDD00CB9DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aperture-Outline-TreeviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aperture-Outline-Treeview.app/Contents/MacOS/Aperture-Outline-Treeview";
+			};
+			name = Debug;
+		};
+		AE5961311A491DDD00CB9DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aperture-Outline-TreeviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aperture-Outline-Treeview.app/Contents/MacOS/Aperture-Outline-Treeview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE59610A1A491DDD00CB9DD2 /* Build configuration list for PBXProject "Aperture-Outline-Treeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE59612A1A491DDD00CB9DD2 /* Debug */,
+				AE59612B1A491DDD00CB9DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE59612C1A491DDD00CB9DD2 /* Build configuration list for PBXNativeTarget "Aperture-Outline-Treeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE59612D1A491DDD00CB9DD2 /* Debug */,
+				AE59612E1A491DDD00CB9DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE59612F1A491DDD00CB9DD2 /* Build configuration list for PBXNativeTarget "Aperture-Outline-TreeviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5961301A491DDD00CB9DD2 /* Debug */,
+				AE5961311A491DDD00CB9DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5961071A491DDD00CB9DD2 /* Project object */;
+}
