@@ -12,6 +12,9 @@
 		AE59611A1A491DDD00CB9DD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5961191A491DDD00CB9DD2 /* Images.xcassets */; };
 		AE59611D1A491DDD00CB9DD2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE59611B1A491DDD00CB9DD2 /* MainMenu.xib */; };
 		AE5961291A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5961281A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m */; };
+		AE5961331A491E1E00CB9DD2 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5961321A491E1E00CB9DD2 /* AppleScriptObjC.framework */; };
+		AE59613C1A4925D300CB9DD2 /* Aperture.applescript in Sources */ = {isa = PBXBuildFile; fileRef = AE5961391A4925D300CB9DD2 /* Aperture.applescript */; };
+		AE59613D1A4925D300CB9DD2 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE59613B1A4925D300CB9DD2 /* TreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 		AE5961221A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aperture-Outline-TreeviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5961271A491DDD00CB9DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5961281A491DDD00CB9DD2 /* Aperture_Outline_TreeviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aperture_Outline_TreeviewTests.m; sourceTree = "<group>"; };
+		AE5961321A491E1E00CB9DD2 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		AE5961391A4925D300CB9DD2 /* Aperture.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Aperture.applescript; sourceTree = "<group>"; };
+		AE59613A1A4925D300CB9DD2 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		AE59613B1A4925D300CB9DD2 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5961331A491E1E00CB9DD2 /* AppleScriptObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +66,10 @@
 		AE5961061A491DDD00CB9DD2 = {
 			isa = PBXGroup;
 			children = (
+				AE5961391A4925D300CB9DD2 /* Aperture.applescript */,
+				AE59613A1A4925D300CB9DD2 /* TreeNode.h */,
+				AE59613B1A4925D300CB9DD2 /* TreeNode.m */,
+				AE5961321A491E1E00CB9DD2 /* AppleScriptObjC.framework */,
 				AE5961111A491DDD00CB9DD2 /* Aperture-Outline-Treeview */,
 				AE5961251A491DDD00CB9DD2 /* Aperture-Outline-TreeviewTests */,
 				AE5961101A491DDD00CB9DD2 /* Products */,
@@ -212,6 +224,8 @@
 			files = (
 				AE5961181A491DDD00CB9DD2 /* main.m in Sources */,
 				AE5961161A491DDD00CB9DD2 /* AppDelegate.m in Sources */,
+				AE59613C1A4925D300CB9DD2 /* Aperture.applescript in Sources */,
+				AE59613D1A4925D300CB9DD2 /* TreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
